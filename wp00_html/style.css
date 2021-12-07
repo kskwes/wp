@@ -1,0 +1,243 @@
+/*
+Theme Name: wp00
+Theme URI: ''
+Description: Theme of wp00.
+Author URI: ''
+Version: ''
+Tags: Basic
+License: ''
+License URI: ''
+
+*/
+
+/* 変数 */
+:root {
+    --c-black: black;
+    --c-white: white;
+
+    --base-width: 960px;
+}
+
+/* 共通 */
+body {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    color: var(--c-black);
+}
+
+img {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.jc-around {
+    justify-content: space-around;
+}
+
+.jc-evenly {
+    justify-content: space-evenly;
+}
+
+.jc-start {
+    justify-content: start;
+}
+
+.jc-end {
+    justify-content: end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* ヘッダー */
+.header-nav {
+    max-width: var(--base-width);
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo a {
+    display: block;
+}
+
+.header-logo img {
+    display: block;
+}
+
+.nav-list {
+    width: 250px;
+}
+
+.header-menu {
+    margin-bottom: 30px;
+}
+
+.menu-list {
+    max-width: var(--base-width);
+    margin: 0 auto;
+}
+
+/* KV */
+.hero {
+    max-width: var(--base-width);
+    margin: 0 auto 50px;
+}
+
+.hero img {
+    display: block;
+}
+
+/* コンテンツ */
+.page.side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    max-width: 200px;
+    width: 20%;
+    margin-right: 50px;
+
+    background-color: #ddd;
+}
+
+.section {
+    max-width: var(--base-width);
+    margin: 0 auto 30px;
+}
+
+.section-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.item-list,
+.item-detail,
+.item-functions {
+    flex: 1;
+}
+
+.item-list h2 {
+    margin-bottom: 30px;
+}
+
+.item-box {
+    margin-bottom: 30px;
+}
+
+.item-box img {
+    display: block;
+    margin-right: 30px;
+    max-width: 250px;
+}
+
+.item-box-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.item-box-category {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.item-box-desc {
+    font-size: 18px;
+}
+
+.recommends-article {
+    position: relative;
+    display: block;
+    padding: 98px 45px;
+    background: url('http://placehold.jp/ababab/ddd/300x300.png?text=image');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--c-white);
+}
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+.info-item a {
+    display: block;
+}
+
+.info-item-date {
+    font-size: 13px;
+}
+
+.info-item-title,
+.info-item-date {
+    display: block;
+}
+
+.seminar {
+    width: 70%;
+}
+
+.info-pile {
+    flex: 1;
+}
+
+.item-images {
+    max-width: 400px;
+    width: 100%;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.image-item {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.item-description {
+    margin-bottom: 30px;
+}
+
+.item-purchase {
+    text-align: center;
+}
+
+.item-detail-note {
+    border: 1px solid var(--c-black);
+    padding: 20px;
+}
+
+/* フッター */
+.footer {
+    max-width: var(--base-width);
+    margin: 0 auto;
+    padding: 30px 0;
+}
